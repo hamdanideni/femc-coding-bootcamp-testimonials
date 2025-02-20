@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- js -->
+    <script src="script.js" defer></script>
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body>
+    <section aria-label="testimonial" class="testimonial">
+      <div class="testimonial__content">
+        <div class="testimonial__content-list slide--1">
+          <div class="testimonial__content-list-text">
+            <p class="testimonial__quote">
+              “ I’ve been interested in coding for a while but never taken the
+              jump, until now. I couldn’t recommend this course enough. I’m now
+              in the job of my dreams and so excited about the future. ”
+            </p>
+            <span class="testimonial__author">Tanya Sinclair</span>
+            <span class="testimonial__role">UX Engineer</span>
+          </div>
+          <div class="testimonial__profile">
+            <img
+              src="./images/image-tanya.jpg"
+              alt="tanya"
+              class="testimonial__image"
+            />
+          </div>
+        </div>
+        <div class="testimonial__content-list slide--2">
+          <div class="testimonial__content-list-text">
+            <p class="testimonial__quote">
+              “ If you want to lay the best foundation possible I’d recommend
+              taking this course. The depth the instructors go into is
+              incredible. I now feel so confident about starting up as a
+              professional developer. ”
+            </p>
+            <span class="testimonial__author">John Tarkpor</span>
+            <span class="testimonial__role">Junior Front-end Developer</span>
+          </div>
+          <div class="testimonial__profile">
+            <img
+              src="./images/image-john.jpg"
+              alt="john"
+              class="testimonial__image"
+            />
+          </div>
+        </div>
+
+        <!-- navigation -->
+        <div class="testimonial__navigation">
+          <button class="button__navigation button-left" aria-label="previous">
+            <img src="./images/icon-prev.svg" alt="prev" />
+          </button>
+          <button class="button__navigation button-right" aria-label="next">
+            <img src="./images/icon-next.svg" alt="next" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
