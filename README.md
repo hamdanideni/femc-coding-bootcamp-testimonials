@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/hamdanideni/femc-coding-bootcamp-testimonials](https://github.com/hamdanideni/femc-coding-bootcamp-testimonials)
+- Live Site URL: [https://hamdanideni.github.io/femc-coding-bootcamp-testimonials/](https://hamdanideni.github.io/femc-coding-bootcamp-testimonials/)
 
 ### Built with
 
